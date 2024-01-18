@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tektur", sans-serif;
+  font-size: 20px;
+  background: black;
+}
+
+.panel {
+  width: 350px;
+  min-height: 300px;
+  margin: 20px auto;
+  border: black 1px solid;
+  border-radius: 10px;
+  text-align: center;
+}
+.panel .title {
+  color: orange;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.panel .display {
+  color: orange;
+  font-size: 40px;
+  width: 350px;
+  min-height: 100px;
+  margin: 10px auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel .control {
+  width: 350px;
+  margin: 10px auto;
+  min-height: 50px;
+  padding: 10px;
+  background: orange;
+  border-radius: 10px;
+}
+.panel .control .button-group-1, .panel .control .button-group-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+.panel .control button {
+  font-family: "Tektur", sans-serif;
+  font-size: 20px;
+  color: black;
+  border: black 1px solid;
+  padding: 2px 4px;
+  border-radius: 6px;
+}
+.panel .control button:hover {
+  border: none;
+  cursor: pointer;
+}
+.panel .control button:active {
+  transform: translate(2px, 2px);
+}
+.panel .console {
+  width: 350px;
+  min-height: 100px;
+  background: orange;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+}
+.panel .console .console-text {
+  color: green;
+}/*# sourceMappingURL=index.css.map */
