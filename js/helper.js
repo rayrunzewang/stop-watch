@@ -1,4 +1,4 @@
-// utils
+// timeFormatter.ts 时间格式化函数模块
 export const timeFormatter = (time) => {
     const twoDigitalizer = (number) => {
         return number >= 10 ? number.toString() : '0' + number;
